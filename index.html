@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="todo-header">
+            <div class="logo">To Do List</div>
+            <div class="add-task">
+                <input id="addTaskInput" placeholder="Name..." type="text">
+                <button onclick="addTask()">Add Item</button>
+            </div>
+        </div>
+        <div id="todo-body">
+            There is no tasks to do!
+
+        </div>
+        <div id="todo-footer">
+            <button onclick="clearAll()">Clear Items</button>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
